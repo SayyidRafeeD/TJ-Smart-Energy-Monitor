@@ -1,0 +1,65 @@
+Dependency directories
+
+node_modules/
+/backend/venv/
+/backend/pycache/
+/iot_simulation/pycache/
+
+Database
+
+*.db
+*.sqlite3
+
+Environment variables
+
+.env
+
+Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+---
+
+### **Langkah 2: Inisialisasi Git di Laptop**
+
+Buka terminal di folder utama proyek (`TJ-Smart-Energy-Monitor`), lalu jalankan perintah ini satu per satu:
+
+1.  **Inisialisasi Git:**
+    ```bash
+    git init
+    ```
+2.  **Tambahkan semua file (kecuali yang di .gitignore):**
+    ```bash
+    git add .
+    ```
+3.  **Simpan perubahan (Commit):**
+    ```bash
+    git commit -m "Initial commit: TJ Smart Energy Monitor v1.0"
+    ```
+
+---
+
+### **Langkah 3: Buat Repository di GitHub**
+
+1.  Buka [GitHub.com](https://github.com) dan login.
+2.  Klik tombol **New** (atau tanda `+` di pojok kanan atas) -> **New Repository**.
+3.  Isi nama repo, misal: `TJ-Smart-Energy-Monitor`.
+4.  Pilih **Public** (biar dosen bisa lihat).
+5.  Jangan centang "Add a README file" (karena kita udah punya).
+6.  Klik **Create repository**.
+
+---
+
+### **Langkah 4: Hubungkan Laptop ke GitHub**
+
+Setelah repo terbuat, GitHub bakal kasih instruksi. Cari bagian **"…or push an existing repository from the command line"**.
+
+Copy-paste perintah yang ada di sana ke terminal laptop lu. Biasanya mirip kayak gini:
+
+```bash
+git branch -M main
+git remote add origin https://github.com/USERNAME_LU/TJ-Smart-Energy-Monitor.git
+git push -u origin main

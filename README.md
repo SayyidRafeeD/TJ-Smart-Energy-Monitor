@@ -103,4 +103,4 @@ Sensor akan mengirim data dummy setiap 2 detik dan dashboard mulai menampilkan g
 
 ---
 
-*Diajukan untuk Tugas Akhir Mata Kuliah Transformasi Digital – Semester Ganjil 20XX*
+*Diajukan untuk Tugas Akhir Mata Kuliah Transformasi Digital – Semester Ganjil 2025*
